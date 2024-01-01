@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, sans-serif;
+    margin-bottom: 250px;
+    margin-top: 250px;
+}
+h2{
+    color: #333;
+}
+#res{
+    font-size: 24px;
+}
+.container{
+    background-color: rgba(135, 147, 114, 0.5);
+    margin-left: 380px;
+    margin-right:380px;
+    margin-top: auto;
+}

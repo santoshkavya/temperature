@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="temperature.css">
+    <script src="temperature.js"></script>
+</head>
+<body background="https://media.istockphoto.com/id/819556270/photo/thermometer-on-a-green-nature-background-and-temperature-measuring-environment-concept.jpg?s=612x612&w=0&k=20&c=cZ1I7hgWWTswzNoAOeIek6AYmD3I62FvMJlqCHtlCmE=" style="background-repeat: no-repeat; background-size: 100% 100%;">
+    <center>
+    <div class="container">
+        <h2>Temperature Converter</h2>
+        <label for="tempInput">Enter Temperature:</label>
+        <input type="number" id="tempInput" placeholder="Enter temperature">
+        <br><br>
+        <label for="from">From:</label>
+        <select id="from">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        <br><br>
+        <label for="to">To:</label>
+        <select id="to">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        <br><br>
+        <button onclick="conTemp()">Convert</button>
+        <p id="res"></p>
+    </div>
+    </center>
+</body>
+</html>
